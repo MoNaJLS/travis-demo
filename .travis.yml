@@ -12,7 +12,6 @@ script:
   - ls
   - chmod +x hello.sh
   - ./hello.sh
-  - docker pull scratch
   
 after_script:
   - echo "End of Pipline"
